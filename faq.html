@@ -1,28 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FAQ - Citizens Voice</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Citizens' Grievance Portal - FAQ</title>
   <style>
-    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f5f7fa; }
-    header { background:#004aad; color:white; text-align:center; padding:20px; }
-    .container { max-width:900px; margin:auto; padding:20px; }
-    details { margin:10px 0; padding:10px; background:white; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1); }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #004aad;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    nav {
+      background: #003580;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    nav a.active {
+      text-decoration: underline;
+      font-weight: bolder;
+      color: #ffeb3b;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+    details {
+      margin: 10px 0;
+      padding: 10px;
+      background: white;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #0d47a1;
+      color: white;
+      margin-top: 40px;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Frequently Asked Questions</h1>
+    <h2>Citizens' Grievance Portal</h2>
   </header>
-
-<nav style="background:#003580; padding:10px; text-align:center;">
-  <a href="index.html" style="color:white; margin:0 15px; text-decoration:none; font-weight:bold;">Home</a>
-  <a href="about.html" style="color:white; margin:0 15px; text-decoration:none; font-weight:bold;">About Us</a>
-  <a href="faq.html" style="color:white; margin:0 15px; text-decoration:none; font-weight:bold;">FAQ</a>
-  <a href="contact.html" style="color:white; margin:0 15px; text-decoration:none; font-weight:bold;">Contact</a>
-</nav>
-
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="faq.html" class="active">FAQ</a>
+    <a href="contact.html">Contact</a>
+  </nav>
   <div class="container">
     <details>
       <summary>How can I submit my problem?</summary>
@@ -41,5 +85,8 @@
       <p>No, this is a citizen support initiative to highlight local issues.</p>
     </details>
   </div>
+  <footer>
+    <p>&copy; 2025 Citizens' Grievance Portal | All rights reserved.</p>
+  </footer>
 </body>
 </html>
